@@ -1,0 +1,77 @@
+/* this is some magical font-importing.  
+you'll learn about it later. */
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+.header{
+  background-color:#273020be ;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+
+}
+ul{
+  font-size: bold;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  color: white;
+}
+.header-body {
+  background-color: #273020be;
+  display: flex;
+  padding: 30px;
+  color: white;
+}
+.header-body div {
+  flex: 1;
+}
+.h-image {
+  background-color: rgb(176, 177, 179);
+  display: flex;
+  justify-content: space-around;
+}
+.sign-up-button {
+  background-color: blue;
+  border-radius: 5px;
+}
+.body-container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.item {
+  order: 4;
+
+}
+.content {
+  display: flex;
+  background-color: #c7c3c3;
+}
+ .content{ 
+  white-space: pre-wrap;
+  flex-wrap: break-word;
+}
+
+.container {
+  display: flex;
+}
+.container {
+  background-color: rgba(20, 133, 202, 0.884) ;
+  display: auto;
+  border: #333;
+  margin: 50px;
+  padding: 80px;
+  justify-content: start;
+  color: white;
+  align-items: center;
+}
+.container div{
+  flex: 1;
+  align-content: end;
+}
+.end-footer {
+  display: flex;
+  justify-content: center;
+  background-color: #273020be;
+}
+
